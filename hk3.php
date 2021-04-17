@@ -2,7 +2,7 @@
 <head><meta charset="utf-8"></head>
 <body>
  
-<form action="hk1.php" method="get">
+<form action="hk3.php" method="get">
 3. n개의 Fibonacci 수열과 비례를 계산해드릴게요.<br>
 n값을 입력하세요(단 n은 100이하의 자연수): 
 <input type="text" name="num_n3">
