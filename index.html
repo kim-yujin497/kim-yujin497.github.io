@@ -33,13 +33,26 @@
 <!-- Page content 페이지 내용  !!!!!!!!!!!!!!!!  -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
+  <!--현재시간 출력 javascript code-->
+  <p id="demo1"></p>
+  <script>
+  var d = new Date(); //브라우저의 현재 시간대를 출력하는 //날짜 객체
+  document.getElementById("demo").innerHTML = "현재시간"+ " " + d; //문자열 //연결 연산자
+  </script>
+  
+  
   <!-- Assigment Section -->
   <div class="w3-container w3-padding-32" id="assigment">
     <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Web programing Assigment</b></h2>
   </div>
   <div>
-  This is a place where everyone can see my <mark>web programming class assignment</mark>. 
-  These are the assignments that were coded using html5 and css3 and php that I learned in web programming class so far.
+  This is a place where everyone can see my <mark>web programming class assignment</mark>. <!--mark 강조하기 노랑 형광펜-->
+  These are the assignments that were coded using 
+  <!--버튼 이벤트 javascript code-->
+  <button onclick="document.getElementById('demo').innerHTML='Hypertext Markup Language'">HYML5</button><p id="demo"></p>
+  and <button onclick="document.getElementById('demo').innerHTML='cascading style sheets'">CSS3</button><p id="demo"></p>    
+  and <button onclick="document.getElementById('demo').innerHTML='Hypertext Preprocessor'">PHP</button><p id="demo"></p>    
+  that I learned in web programming class so far.
   Click on the part below to link to my assignment. However, when looking at the php assignment, please use the <ins>wamp server</ins>.<p></p>
   </div>
   <pre>
@@ -119,7 +132,8 @@
   <div class="w3-container w3-padding-32" id="about">
     <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>About Me</b></h2>
     <p>
-    Hello, my name is Kim Yujin.
+      <!--버튼 이벤트 javascript code-->
+      <button onclick="this.innerHTML='Nice meet you!!'">Hello?</button>, my name is Kim Yujin.
     I am currently living in Korea and majoring in <mark>computer science</mark> at <ins><a href="https://www.dongseo.ac.kr/kr/">Dongseo University</a></ins>.
     </p>
     <div style= "display: table; clear: both;">
