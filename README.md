@@ -2,6 +2,11 @@
 
 VS Code는 특정 언어 전용 IDE가 아니므로 개발에 필요한 기능들은 확장프로그램을 설치해서 제공받아야한다.
 
+php 설치
+https://windows.php.net/download
+php 설치방법 참고
+https://asufi.tistory.com/entry/Windows-10-64bit-%ED%99%98%EA%B2%BD-PHP-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+
 PHP 개발을 위해 기본적으로 필요한 확장프로그램은 두 가지가 있다.
 
   1. PHP IntelliSense
