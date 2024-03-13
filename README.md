@@ -8,6 +8,9 @@ https://windows.php.net/download
 php 설치방법 참고
 https://hsuzzang.tistory.com/entry/PHP-Windows-10-PHP-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95
 
+Apache 설치
+https://fifo22.tistory.com/34
+
 TS 버전의 경우, 다중 스레드 가능 빌드로서 멀티 스레드 SAPI(Server API)와 PHP를 웹서버에 로드할 경우에는 TS 바이너리를 사용해야 한다고 한다.NTS 버전의 경우, 단일 스레드 전용 빌드로서 멀티 스레딩을 사용하지 않고 FastCGI 프로토콜을 통한 웹서버를 사용할 경우 NTS 바이너리를 사용해한다고 한다.또한 IIS 웹서버 위에 FastCGI로 PHP를 사용하는 경우에는 NTS버전을 사용해야 한다.Apache 웹서버 위에 PHP를 사용하는 경우에는 TS버전을 사용해야 한다.결론적으로 보면 IIS나 Apache를 사용하면 무조건 이 버전을 사용해야 된다가 아닌각 웹서버에서 사용하는 모듈이나 프로토콜에 따라 아래와 같이 골라서 사용하면 된다.
 
 
@@ -53,6 +56,8 @@ php.ini는 PHP의 설정 파일로, 이것을 변경하면 서버의 모든 PHP 
 
 PHP 환경 변수 설정
 환경 변수를 설정하기 전에 환경 변수를 왜 설정하는지를 알면 좋을 것 같다. 간단히 말하자면, 환경 변수는 OS가 응용프로그램을 실행할 때, 그 경로를 미리 변수로 등록해 여기저기 있는 응용프로그램을 쉽게 가져다 쓰기 위한다고 정도만 알고 있어도 좋을 것 같다.
+
+
 
 
 
